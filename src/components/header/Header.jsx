@@ -1,5 +1,4 @@
 import React from "react";
-import bckground from "../assets/ezgif.com-gif-maker.gif";
 import "./Header.scss";
 
 function Header() {
