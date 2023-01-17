@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
 :root {
-  font-family: 'EB Garamond', serif;
-
+  font-family: "EB Garamond", serif;
 }
 
 body {
@@ -22,9 +21,29 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: lighter;
+  margin-bottom: 2px;
 }
 
 p {
   font-size: 16px;
   margin: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Om jag vill ändra bakgrunden: */
+/* ::-webkit-scrollbar-track { */
+/* background: #f1f1f1;  */
+/* } */
+
+/* Ändra färg så det följer färgschemat */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Ändra färg så det följer färgschemat */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
