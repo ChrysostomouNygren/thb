@@ -6,4 +6,30 @@
 
 .disc-card {
   width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rendered-disc {
+  display: flex;
+  flex-direction: column;
+}
+
+.rendered-tracks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.rendered-track {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rendered-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }

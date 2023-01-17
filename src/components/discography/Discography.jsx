@@ -38,7 +38,6 @@ function Discography() {
     });
   };
 
-
   useEffect(() => {
     getDicogs();
     getTracks();
@@ -50,22 +49,31 @@ function Discography() {
       {disc.map((record) => (
         <div key={record.id} className="disc-card">
           <h3>{record.title}</h3>
-          <p>{record.year}</p>
-          <p>Label: {record.label}</p>
-          <p>Format: {record.format}</p>
-          <p>{record.id}</p>
-          {/* låttitelrendering */}
-          <button onClick={() => getTrack(record.id)}>Track list</button>
-          {track.id === record.id ? (
-            track.tracklist.map((song) => <p>{song.title}</p>)
-          ) : (
-            <></>
-          )}
+          <div className="rendered-card">
+            <div className="rendered-disc">
+              <p>{record.year}</p>
+              <p>Label: {record.label}</p>
+              <p>Format: {record.format}</p>
+            </div>
+            {/* <p>{record.id}</p> */}
+            {/* låttitelrendering */}
+            <div className="rendered-tracks">
+              <button onClick={() => getTrack(record.id)}>Track list</button>
+              {track.id === record.id ? (
+                track.tracklist.map((song) => (
+                  <div key={song.title} className="rendered-track">
+                    {/* {song.artists[0].name ? <p>{song.artists[0].name}</p> : <></>} */}
+                    <p>{song.title}</p>
+                    <p>{song.duration}</p>
+                  </div>
+                ))
+              ) : (
+                <></>
+              )}
+            </div>
+          </div>
         </div>
       ))}
-      {tracks.map((trackiluring) => {
-        <p>id: {trackiluring.id}</p>;
-      })}
     </div>
   );
 }
