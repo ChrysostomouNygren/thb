@@ -1,0 +1,36 @@
+.links-comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #838383;
+  padding: 20px 10px 20px 10px;
+}
+
+.links-card {
+  width: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+  div {
+    display: flex;
+    justify-content: space-around;
+  }
+  a {
+    font-size: 18px;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #006989;
+  }
+}

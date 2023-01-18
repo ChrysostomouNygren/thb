@@ -1,7 +1,11 @@
 .navbar {
+  width: 350px;
+  margin: auto;
+  .navbar-center {
     display: flex;
     justify-content: space-around;
-    h3 {
-        margin: 10px;
-    }
+  }
+  h3 {
+    margin: 10px;
+  }
 }
