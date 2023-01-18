@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  background-color: #eaebed;
 }
 
 h1 {
@@ -34,16 +35,16 @@ p {
 }
 
 /* Om jag vill ändra bakgrunden: */
-/* ::-webkit-scrollbar-track { */
-/* background: #f1f1f1;  */
-/* } */
+/* ::-webkit-scrollbar-track {
+  background: #d6d7da;
+} */
 
 /* Ändra färg så det följer färgschemat */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #a2a2a2;
 }
 
 /* Ändra färg så det följer färgschemat */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #838383;
 }

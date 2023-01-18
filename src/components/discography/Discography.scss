@@ -4,9 +4,15 @@
   align-items: center;
 }
 
-.album-title {
-margin-bottom: 15px;
+.disc-border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #838383;
+  padding: 10px;
+}
 
+.album-title {
+  margin-bottom: 10px;
 }
 
 .disc-card {
@@ -14,6 +20,7 @@ margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  border-bottom: 1px solid #838383;
 }
 
 .rendered-disc {
@@ -21,7 +28,6 @@ margin-bottom: 15px;
   flex-direction: column;
   margin-left: 10px;
   height: 105px;
-
 }
 
 // css för stylingen av scrollbars ligger i index.css mappen så den följer med i alla komponenter
@@ -30,33 +36,44 @@ margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: stretch;
   max-height: 105px;
   // styla knappen efter färgschemat:
   button {
     display: flex;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    border: 0px;
+    background-color: #a3bac348;
+    margin-right: 18px;
+  }
+  button:hover {
+    background-color: #a3bac37a;
   }
 }
 
+// fade in & out?
 .scroll-tracks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-height: 105px;
+  overflow: hidden;
+  overflow-y: scroll;
+  button {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-height: 105px;
-    overflow: hidden;
-    overflow-y: scroll;
-    // knappen blir osynlig när den är tryckt.
-    button {
-      display: flex;
-      border: 0px;
-      background-color: transparent;
-    }
+    border: 0px;
+    background-color: transparent;
   }
+}
 
 .rendered-track {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-right: 8px;
+  background-color: #a3bac36e;
+  margin-bottom: 3px;
 }
 
 .rendered-card {
