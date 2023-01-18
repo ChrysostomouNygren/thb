@@ -26,7 +26,7 @@ function Discography() {
   }, []);
 
   return (
-    <div className="disc-comp">
+    <div className="disc-comp" id="discography">
       <h2>Discography</h2>
       <div className="disc-border">
         {realeses.map((record) => (
