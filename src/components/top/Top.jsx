@@ -1,21 +1,25 @@
-import React from 'react'
-import {FaArrowCircleUp} from 'react-icons/fa'
-import './Top.scss'
+import React from "react";
+import { FaArrowCircleUp } from "react-icons/fa";
+import "./Top.scss";
 
 function Top() {
-
-    const handleClick = (id) => {
-        if (id === "header") {
-          const element = document.querySelector("#header");
-          element.scrollIntoView({ behavior: "smooth" });
-          console.log("success to top");
-        }
-      };
+  const handleClick = (id) => {
+    if (id === "header") {
+      const element = document.querySelector("#header");
+      element.scrollIntoView({ behavior: "smooth" });
+      console.log("success to top");
+    }
+  };
   return (
-    <div className='top-of-page-pls'>
-        <FaArrowCircleUp className='fa-top' onClick={() => handleClick("header")}/>
+    <div className="top-of-page-pls">
+      <button>
+        <FaArrowCircleUp
+          className="fa-top"
+          onClick={() => handleClick("header")}
+        />
+      </button>
     </div>
-  )
+  );
 }
 
-export default Top
+export default Top;
