@@ -7,6 +7,7 @@ import "./components/navbar/Navbar.scss";
 import Links from "./components/links/Links";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Top from "./components/top/Top";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Links />
       <Discography />
       <Contact />
+      <Top />
       <Footer />
     </div>
   );

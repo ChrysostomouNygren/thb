@@ -1,7 +1,7 @@
 ![Wireframes](./public/wireframes.jpg)
 [font](https://fonts.google.com/specimen/EB+Garamond?query=garamond)
 
-pkt: sass, axios
+pkt: sass, axios, react-icons
 
 anteckningar:
 mediaplayer via bandcamps egna hemsida

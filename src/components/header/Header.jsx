@@ -3,7 +3,7 @@ import "./Header.scss";
 
 function Header() {
   return (
-    <header>
+    <header id="header">
         <h1 className="header-text">the horizon bleeds</h1>
     </header>
   );
