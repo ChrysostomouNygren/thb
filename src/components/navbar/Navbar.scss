@@ -1,11 +1,17 @@
 .navbar {
   width: 350px;
   margin: auto;
+
   .navbar-center {
     display: flex;
     justify-content: space-around;
   }
-  h3 {
+
+  .nav-butt {
+    background-color: transparent;
+    border: none;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
     margin: 10px;
   }
 }

@@ -41,12 +41,11 @@ p {
   background: #d6d7da;
 } */
 
-/* Ändra färg så det följer färgschemat */
 ::-webkit-scrollbar-thumb {
   background: #a2a2a2;
 }
 
-/* Ändra färg så det följer färgschemat */
+
 ::-webkit-scrollbar-thumb:hover {
   background: #838383;
 }
