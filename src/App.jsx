@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import "./components/navbar/Navbar.scss";
 import Links from "./components/links/Links";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Links />
       <Discography />
       <Contact />
+      <Footer />
     </div>
   );
 }
