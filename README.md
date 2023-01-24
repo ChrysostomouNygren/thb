@@ -13,8 +13,11 @@ https://api.discogs.com/artists/7427346/releases
 * VA-skivorna, bara rendera ut THB-låten? Få ut artistnamnen iaf!
 * scroll på de längre listorna
 
-18/7 - todo:
+18/1 - todo:
 * to-the-top knapp tack
 * contact: email, instagram
 * grid för links
 * optimera för galaxy fold: 280px (mindre än 375px bredd)
+
+23/1
+* rensa på console.logs
