@@ -8,3 +8,9 @@
   width: 450px;
   height: 42px;
 }
+
+@media screen and (max-width: 280px) {
+  .bc-mediaplayer {
+    max-width: 280px;
+  }
+}
