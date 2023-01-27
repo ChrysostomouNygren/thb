@@ -7,7 +7,6 @@ function Top() {
     if (id === "header") {
       const element = document.querySelector("#header");
       element.scrollIntoView({ behavior: "smooth" });
-      console.log("success to top");
     }
   };
   return (

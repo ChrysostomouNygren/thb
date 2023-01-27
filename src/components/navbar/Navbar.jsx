@@ -7,17 +7,14 @@ function Navbar() {
     if (id === "links") {
       const element = document.querySelector("#links");
       element.scrollIntoView({ behavior: "smooth" });
-      console.log("success to links");
     }
     if (id === "discography") {
       const element = document.querySelector("#discography");
       element.scrollIntoView({ behavior: "smooth" });
-      console.log("success to discography");
     }
     if (id === "contact") {
       const element = document.querySelector("#contact");
       element.scrollIntoView({ behavior: "smooth" });
-      console.log("success to contact");
     }
   };
 
